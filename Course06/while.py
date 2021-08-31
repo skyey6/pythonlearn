@@ -3,8 +3,9 @@
 """
 import random
 
-num = random.randint(1, 101)  # 产生一个1-100范围的随机数
+num = random.randint(1, 100)  # 产生一个1-100范围的随机数
 count = 0
+
 while True:
     your_num = int(input("输入你的数字："))
     count += 1
